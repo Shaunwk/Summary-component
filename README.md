@@ -1,2 +1,3 @@
 # Summary-component
-summary component build from Frontend Mentor
+summary component build from Frontend Mentor 
+
