@@ -1,0 +1,151 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.items {
+    box-shadow: 10px 5px 25px rgb(209, 209, 209);
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    height:450px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.left-side {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    width: 15rem;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 25px;
+}
+
+.circle {
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  margin-left: 3rem;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  line-height: .5rem;
+  background-color: hsla(241, 81%, 54%, 0.427);
+}
+
+
+.circle h3 {
+    font-size: 12px;
+    color: rgb(146, 137, 252);
+    
+}
+
+.left-side h4 {
+    font-size: 30px;
+}
+
+.left-side p {
+    color: rgb(146, 137, 252);
+}
+
+.right-side {
+    
+    padding: 2rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.right-side h1{
+    font-size: 20px;
+    margin-bottom:2rem;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.193);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height:1rem;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.192);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height:1rem;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.148);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height:1rem;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.118);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    height:1rem;
+    align-items: center;
+    margin-bottom:1rem;
+}
+
+button {
+    background-color: rgb(30, 30, 149);
+    color: white;
+    border-radius: 25px;
+    padding: 1rem;
+    width: 15rem;
+}
+
+button:hover {
+    color:black;
+    background-color: white;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: none;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1 {
+  font-size: 18px;
+}
+
+
+@media screen and (max-width:600px){
+    .items {
+        
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
